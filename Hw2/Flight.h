@@ -8,6 +8,7 @@
 #ifndef FLIGHT_H_
 #define FLIGHT_H_
 #define dateLen 10
+#include "Airport.h"
 typedef struct {
 
 	Airport* apStart;
@@ -20,7 +21,7 @@ typedef struct {
 float flightTime (Flight* fl);
 int isFligthOk(Flight* fl,char* codeStart, char* codeDes);
 int countFlights(Flight** fl,char* codeStart, char* codeDes);
-void initFlight(Flight* fl);
+int initFlight(Flight* fl);
 void printFlight(const Flight* fl);
 void FreeFlight(Flight* fl);
 int Hour(int x,int y);

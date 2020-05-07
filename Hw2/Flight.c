@@ -1,4 +1,4 @@
-y/*
+/*
  * Flight.c
  *
  *  Created on: May 6, 2020
@@ -45,13 +45,15 @@ int countFlights(Flight** fl,int countfights,char* codeStart, char* codeDes){
 
 
 }
-void initFlight(Flight* fl,Flight* start,Flight* end){
+int initFlight(Flight* fl,Flight* start,Flight* end){
 	fl->apStart=start;
 	fl->apDes=end;
 	fl->hourExit=Hour(0,23);
 	fl->AvgSpeed=NumberPosistive();
 	fl->date=CheckDate();
-
+	if(!CheckDate()|| !NumberPosistive())
+		return 0;
+	return 1;
 
 }
 int Hour(int x,int y){

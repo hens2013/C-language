@@ -6,4 +6,4 @@
  */
 char* getStrExactLength();
 char* myGets(char* buf, int size);
-
+int NumberPosistive();
