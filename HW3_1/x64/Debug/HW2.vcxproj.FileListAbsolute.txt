@@ -1,0 +1,6 @@
+C:\Users\Bar\Desktop\HW2\x64\Debug\HW2.exe
+C:\Users\Bar\Desktop\HW2\x64\Debug\HW2.pdb
+C:\Users\hens2\Desktop\‏‏תיקיה חדשה (2)\C\HW3\x64\Debug\HW2.exe
+C:\Users\hens2\Desktop\‏‏תיקיה חדשה (2)\C\HW3\x64\Debug\HW2.pdb
+C:\Users\hens2\Desktop\‏‏תיקיה חדשה (2)\C\HW3_1\x64\Debug\HW2.exe
+C:\Users\hens2\Desktop\‏‏תיקיה חדשה (2)\C\HW3_1\x64\Debug\HW2.pdb
